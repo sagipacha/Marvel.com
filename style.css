@@ -29,7 +29,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(201, 67, 67);
+    background-color: rgb(0, 0, 0);
     grid-area: footer;
     border-color: 2px solid white;
 
@@ -105,107 +105,246 @@ body {
     color: rgb(241, 235, 235);
 }
 
+#trending_news {
+    width: 1110px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+}
+
 section {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 50px;
-    z-index: 4;
+    padding: 15px;
+    position: relative;
+    top: 60px;
 }
 
 .part_1 {
-    background-image: url("Images/podcast1.png");
+    background-image: url("./Images/podcast1.png");
     background-repeat: no-repeat;
     animation-name: slider1_1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    background-size: 200px 200px;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
 }
 
 @keyframes slider1_1 {
     0% {
-        background-image: url("Images/podcast1.png");
+        background-image: url("./Images/podcast1.png");
     }
 
     50% {
-        background-image: url("Images/podcast2.png");
+        background-image: url("./Images/podcast2.png");
     }
 
     100% {
-        background-image: url("Images/podcast3.png");
+        background-image: url("./Images/podcast3.png");
     }
 }
 
 .part_2 {
-    background-image: url("Images/podcast4.png");
+    background-image: url("./Images/podcast4.png");
     background-repeat: no-repeat;
     animation-name: slider1_2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    background-size: 200px 200px;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
 }
 
 @keyframes slider1_2 {
     0% {
-        background-image: url("Images/podcast4.png");
+        background-image: url("./Images/podcast4.png");
     }
 
     50% {
-        background-image: url("Images/podcast5.png");
+        background-image: url("./Images/podcast5.png");
     }
 
     100% {
-        background-image: url("Images/podcast6.png");
+        background-image: url("./Images/podcast6.png");
     }
 }
 
 .part_3 {
-    background-image: url("Images/podcast6.png");
+    background-image: url("./Images/podcast7.png");
     background-repeat: no-repeat;
     animation-name: slider1_3;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    background-size: 200px 200px;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
 }
 
 @keyframes slider1_3 {
 
     0% {
-        background-image: url("Images/podcast7.png");
+        background-image: url("./Images/podcast7.png");
     }
 
     50% {
-        background-image: url("Images/podcast8.png");
+        background-image: url("./Images/podcast8.png");
     }
 
     100% {
-        background-image: url("Images/podcast9.png");
+        background-image: url("./Images/podcast9.png");
     }
 }
 
 .part_4 {
-    background-image: url("Images/podcast4.png");
+    background-image: url("./Images/podcast4.png");
     background-repeat: no-repeat;
     animation-name: slider1_4;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    background-size: 200px 200px;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
 }
 
 @keyframes slider1_4 {
 
     0% {
-        background-image: url("Images/podcast2.png");
+        background-image: url("./Images/podcast2.png");
     }
 
     50% {
-        background-image: url("Images/podcast7.png");
+        background-image: url("./Images/podcast6.png");
     }
 
     100% {
-        background-image: url("Images/podcast5.png");
+        background-image: url("./Images/podcast1.png");
     }
 }
+
+.part_5 {
+    background-image: url("./Images/tv_show1.png");
+    background-repeat: no-repeat;
+    animation-name: slider1_5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider1_5 {
+
+    0% {
+        background-image: url("./Images/tv_show2.png");
+    }
+
+    50% {
+        background-image: url("./Images/tv_show3.png");
+    }
+
+    100% {
+        background-image: url("./Images/tv_show4.png");
+    }
+}
+
+.part_6 {
+    background-image: url("./Images/tv_show5.png");
+    background-repeat: no-repeat;
+    animation-name: slider1_6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider1_6 {
+
+    0% {
+        background-image: url("./Images/tv_show5.png");
+    }
+
+    50% {
+        background-image: url("./Images/tv_show6.png");
+    }
+
+    100% {
+        background-image: url("./Images/tv_show7.png");
+    }
+}
+
+#contact_headline {
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 800;
+    position: relative;
+    top: 55px;
+    display: block;
+}
+
+.cards {
+    display: flex; 
+}
+
+.footr {
+    display: flex;
+    position: relative;
+}
+
+h1 {
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    position: absolute;
+    left: 320px; 
+}
+
+#icon_1 {
+    width: 30px;
+    height: 30px;
+}
+
+#icon_2 {
+    width: 30px;
+    height: 30px;
+}
+
+#icon_3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 275px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #disney_company {
     color: white;
@@ -220,9 +359,14 @@ section {
 }
 
 @keyframes fadeIn1 {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 
 #disney_website {
@@ -238,6 +382,15 @@ section {
 }
 
 @keyframes fadeIn2 {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+table {
+    border-collapse: collapse;
+}
