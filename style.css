@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 25% 30% 25% 10%;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer"
+    ;
+}
+
+.header {
+    background-color: rgb(5, 8, 10);
+    grid-area: header;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+    grid-area: main;
+}
+
+.footer {
+    background-color: rgb(201, 67, 67);
+    grid-area: footer;
+    border-color: 2px solid white;
+
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        grid-template-areas:
+            "header header header header"
+            "main main main main"
+            "main main main main"
+            "main main main main"
+            "footer footer footer footer"
+        ;
+    }
+}
+
+.Nav_container {
+    width: 100%;
+    position: relative;
+    background-color: #282525;
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.upper_nav {
+    height: 52px;
+    border-bottom: 1px solid #0f0d0d;
+    padding: 0 20px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.right_nav1 {
+    left: 870px;
+    position: absolute;
+}
+
+.search_photo {
+    height: 50px;
+    margin-right: 10px
+}
+
+.left_nav2 {
+    position: absolute;
+    right: 915px;
+}
+
+.lower_nav {
+    height: 40px;
+    text-align: center;
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+
+#navigate {
+    overflow: hidden;
+    text-align: center;
+    margin-left: 300px;
+}
+
+#navigate a {
+    float: left;
+    color: #f3efef76;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navigate:hover {
+    color: rgb(241, 235, 235);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    z-index: 4;
+}
+
+.part_1 {
+    background-image: url("Images/podcast1.png");
+    background-repeat: no-repeat;
+    animation-name: slider1_1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: 200px 200px;
+}
+
+@keyframes slider1_1 {
+    0% {
+        background-image: url("Images/podcast1.png");
+    }
+
+    50% {
+        background-image: url("Images/podcast2.png");
+    }
+
+    100% {
+        background-image: url("Images/podcast3.png");
+    }
+}
+
+.part_2 {
+    background-image: url("Images/podcast4.png");
+    background-repeat: no-repeat;
+    animation-name: slider1_2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: 200px 200px;
+}
+
+@keyframes slider1_2 {
+    0% {
+        background-image: url("Images/podcast4.png");
+    }
+
+    50% {
+        background-image: url("Images/podcast5.png");
+    }
+
+    100% {
+        background-image: url("Images/podcast6.png");
+    }
+}
+
+.part_3 {
+    background-image: url("Images/podcast6.png");
+    background-repeat: no-repeat;
+    animation-name: slider1_3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: 200px 200px;
+}
+
+@keyframes slider1_3 {
+
+    0% {
+        background-image: url("Images/podcast7.png");
+    }
+
+    50% {
+        background-image: url("Images/podcast8.png");
+    }
+
+    100% {
+        background-image: url("Images/podcast9.png");
+    }
+}
+
+.part_4 {
+    background-image: url("Images/podcast4.png");
+    background-repeat: no-repeat;
+    animation-name: slider1_4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: 200px 200px;
+}
+
+@keyframes slider1_4 {
+
+    0% {
+        background-image: url("Images/podcast2.png");
+    }
+
+    50% {
+        background-image: url("Images/podcast7.png");
+    }
+
+    100% {
+        background-image: url("Images/podcast5.png");
+    }
+}
+
+#disney_company {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 1px 1px #FF0000;
+    font-weight: bold;
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+    animation: fadeIn1 5s;
+    position: relative;
+    top: 50px;
+}
+
+@keyframes fadeIn1 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+#disney_website {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 1px 1px #FF0000;
+    font-weight: bold;
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+    animation: fadeIn2 5s;
+    position: relative;
+    top: 80px;
+}
+
+@keyframes fadeIn2 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
