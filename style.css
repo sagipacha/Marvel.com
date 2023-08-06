@@ -5,7 +5,7 @@ body {
 
 .container {
     width: 100%;
-    height: 150vh;
+    height: 180vh;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -103,19 +103,20 @@ body {
     color: rgb(241, 235, 235);
 }
 
-#trending_news {
-    width: 1110px;
-    height: 250px;
-    position: absolute;
-    top: 100px;
-}
 
-section {
+#section1 {
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 22px;
     position: relative;
-    top: 120px;
+    top: -170px;
+}
+
+#headline_movies {
+    font-weight: 800;
+    color: white;
+    position: relative;
+    top: -140px;
 }
 
 .part_1 {
@@ -126,7 +127,7 @@ section {
     animation-iteration-count: infinite;
     background-size: contain;
     height: 400px;
-    width: 400px;
+    width: 450px;
 }
 
 @keyframes slider1_1 {
@@ -151,7 +152,7 @@ section {
     animation-iteration-count: infinite;
     background-size: contain;
     height: 400px;
-    width: 400px;
+    width: 450px;
 }
 
 @keyframes slider1_2 {
@@ -176,7 +177,7 @@ section {
     animation-iteration-count: infinite;
     background-size: contain;
     height: 400px;
-    width: 400px;
+    width: 450px;
 }
 
 @keyframes slider1_3 {
@@ -202,7 +203,7 @@ section {
     animation-iteration-count: infinite;
     background-size: contain;
     height: 400px;
-    width: 400px;
+    width: 450px;
 }
 
 @keyframes slider1_4 {
@@ -228,7 +229,7 @@ section {
     animation-iteration-count: infinite;
     background-size: contain;
     height: 400px;
-    width: 400px;
+    width: 450px;
 }
 
 @keyframes slider1_5 {
@@ -254,7 +255,7 @@ section {
     animation-iteration-count: infinite;
     background-size: contain;
     height: 400px;
-    width: 400px;
+    width: 450px;
 }
 
 @keyframes slider1_6 {
@@ -272,6 +273,177 @@ section {
     }
 }
 
+#section2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
+    top: -370px;
+}
+
+#headline_soon {
+    font-weight: 800;
+    color: white;
+    position: relative;
+    top: -320px;
+
+}
+
+.part2_1 {
+    background-image: url("./Images/SOON_1.png");
+    background-repeat: no-repeat;
+    animation-name: slider2_1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider2_1 {
+    0% {
+        background-image: url("./Images/SOON_1.png");
+    }
+
+    50% {
+        background-image: url("./Images/SOON_1.png");
+    }
+
+    100% {
+        background-image: url("./Images/SOON_1.png");
+    }
+}
+
+.part2_2 {
+    background-image: url("./Images/SOON_2.png");
+    background-repeat: no-repeat;
+    animation-name: slider2_2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider2_2 {
+    0% {
+        background-image: url("./Images/SOON_2.png");
+    }
+
+    50% {
+        background-image: url("./Images/SOON_2.png");
+    }
+
+    100% {
+        background-image: url("./Images/SOON_2.png");
+    }
+}
+
+.part2_3 {
+    background-image: url("./Images/SOON_3.png");
+    background-repeat: no-repeat;
+    animation-name: slider2_3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider2_3 {
+
+    0% {
+        background-image: url("./Images/SOON_3.png");
+    }
+
+    50% {
+        background-image: url("./Images/SOON_3.png");
+    }
+
+    100% {
+        background-image: url("./Images/SOON_3.png");
+    }
+}
+
+.part2_4 {
+    background-image: url("./Images/SOON_4.png");
+    background-repeat: no-repeat;
+    animation-name: slider2_4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider2_4 {
+
+    0% {
+        background-image: url("./Images/SOON_4.png");
+    }
+
+    50% {
+        background-image: url("./Images/SOON_4.png");
+    }
+
+    100% {
+        background-image: url("./Images/SOON_4.png");
+    }
+}
+
+.part2_5 {
+    background-image: url("./Images/SOON_5.png");
+    background-repeat: no-repeat;
+    animation-name: slider2_5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider2_5 {
+
+    0% {
+        background-image: url("./Images/SOON_5.png");
+    }
+
+    50% {
+        background-image: url("./Images/SOON_5.png");
+    }
+
+    100% {
+        background-image: url("./Images/SOON_5.png");
+    }
+}
+
+.part_6 {
+    background-image: url("./Images/SOON_6.png");
+    background-repeat: no-repeat;
+    animation-name: slider2_6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slider2_6 {
+
+    0% {
+        background-image: url("./Images/SOON_6.png");
+    }
+
+    50% {
+        background-image: url("./Images/SOON_6.png");
+    }
+
+    100% {
+        background-image: url("./Images/SOON_6.png");
+    }
+}
+
+
 #contact_headline {
     font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
     color: white;
@@ -282,7 +454,7 @@ section {
 }
 
 .cards {
-    display: flex; 
+    display: flex;
 }
 
 .footr {
@@ -298,7 +470,7 @@ h1 {
     font-size: 20px;
     justify-content: center;
     position: absolute;
-    left: 320px; 
+    left: 320px;
 }
 
 #icon_1 {
@@ -364,6 +536,9 @@ h1 {
     }
 }
 
-table,th,tr,td {
+table,
+th,
+tr,
+td {
     border-collapse: collapse;
 }
