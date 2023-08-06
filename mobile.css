@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+.videos {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 290px;
+height: 900px;
+}
+
+main {
+    height:500vh ;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 290px;
+    height: 900px;
+}
+}
