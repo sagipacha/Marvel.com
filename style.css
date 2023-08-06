@@ -108,11 +108,11 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
+    top: -150px;
 }
 
 #headline_movies {
     font-weight: 800;
-    color: white;
     position: relative;
     top: -140px;
 }
@@ -275,14 +275,14 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -370px;
+    top: -300px;
 }
 
 #headline_soon {
     font-weight: 800;
     color: white;
     position: relative;
-    top: -320px;
+    top: -270px;
 
 }
 
